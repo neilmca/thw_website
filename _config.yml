@@ -1,0 +1,10 @@
+title: THW Hello
+email: you@example.com
+description: >
+  A minimal Jekyll "Hello World" site created for the user.
+baseurl: ""
+url: "http://localhost:4000"
+
+markdown: kramdown
+
+plugins: []
