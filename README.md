@@ -32,9 +32,9 @@ This repository includes a GitHub Actions workflow at `.github/workflows/jekyll-
 
 GitHub Pages
 --
-The workflow now also deploys the built site to GitHub Pages automatically for pushes to `main`. The Pages deployment uses the official Actions (`actions/upload-pages-artifact` + `actions/deploy-pages`) so the site will be served from the repository's Pages settings.
+The workflow now deploys the built site to GitHub Pages automatically for pushes to `main` by publishing the generated `_site` directory to a `gh-pages` branch (via `peaceiris/actions-gh-pages@v3`).
 
 Notes:
-- Ensure Pages is enabled in the repository settings (Repository > Settings > Pages). The Pages action will publish to the repository's Pages site using the repository permissions.
-- For a custom domain, add a `CNAME` file to the repository root or configure it in the Pages settings.
+- In the repository Settings > Pages, set the source to the `gh-pages` branch (the action publishes to that branch). Allow a minute or two after the action completes for Pages to become available.
+- For a custom domain, add a `CNAME` file to the repository root (it will be published to `gh-pages`) or configure it in the Pages settings.
 # thw_website Update

@@ -40,20 +40,11 @@ jobs:
       - name: List built files
         run: ls -la _site || true
 
-      - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to GitHub Pages (push to gh-pages branch)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    # Only deploy when pushing to main (not on PRs)
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          # Use the automatic GITHUB_TOKEN; adjust if you want a deploy key instead
+          github_token: ${{ secrets.GITHUB_TOKEN }}
