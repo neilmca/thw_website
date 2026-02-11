@@ -4,7 +4,7 @@ title: The Handywoman — Local DIY & Home Repairs
 description: Reliable DIY, home repairs and small renovations by Helen — friendly, local, and professional.
 ---
 
-![Handywoman illustration](/assets/images/cover.png)
+![Handywoman illustration]({{ '/assets/images/cover.png' | relative_url }})
 
 # The Handywoman
 
