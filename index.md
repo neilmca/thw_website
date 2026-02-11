@@ -1,123 +1,47 @@
 ---
 layout: default
+title: The Handywoman — Local DIY & Home Repairs
+description: Reliable DIY, home repairs and small renovations by Helen — friendly, local, and professional.
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+![Handywoman illustration](/assets/images/cover.png)
 
-[Link to another page](./another-page.html).
+# The Handywoman
 
-There should be whitespace between paragraphs.
+Reliable local DIY, home repairs and small renovations — friendly, professional, and insured.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Helen helps homeowners with small jobs that make a big difference around the house. Quick visits, clear quotes, and work done properly.
 
-# Header 1
+## Services
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- **General repairs & maintenance** — repairs, replacements, and sensible fixes.
+- **Flat-pack assembly** — furniture assembled neatly on-site.
+- **Painting & decorating** — touch-ups, small rooms, and feature walls.
+- **Tiling & grouting** — bathroom and kitchen tiling, repairs and re-grout.
+- **Minor plumbing** — taps, leak fixes, and small installations.
+- **Odd jobs & property preparation** — help getting a home sale- or let-ready.
 
-## Header 2
+## How it works
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+1. Call or email to describe the job. Short phone chat to confirm basics.
+2. Arrange a convenient time for a visit or give a quick estimate.
+3. Receive a written quote (no surprises).
+4. Work is completed, area left tidy — payment on completion.
 
-### Header 3
+## Why choose The Handywoman
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- Transparent pricing and written quotes.
+- Fully insured and safety-aware.
+- Reliable, punctual, and respectful of your home.
+- Small jobs welcomed — no minimum charge for local calls.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Request a quote
 
-#### Header 4
+**Phone:** [0111 111111](tel:01111111111)  
+**Email:** [helen@thehandywoman.co.uk](mailto:helen@thehandywoman.co.uk)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+[Request a free quote by email](mailto:helen@thehandywoman.co.uk)
 
-##### Header 5
+---
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+*Serving the local area. For larger projects we can refer trusted partners.*
