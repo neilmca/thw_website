@@ -1,50 +1,30 @@
-name: CI - Jekyll Build & Deploy
-
+name: Build Jekyll site
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-# Recommended permissions for Pages deployment
+ push:
+   branches: ["main"]
 permissions:
   contents: read
   pages: write
   id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.x'
-          cache: 'bundler'
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle config set path 'vendor/bundle'
-          bundle install --jobs 4 --retry 3
-
-      - name: Build site
-        run: bundle exec jekyll build --destination _site
-
-      - name: List built files
-        run: ls -la _site || true
-
-      - name: Deploy to GitHub Pages (push to gh-pages branch)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./_site
-          publish_branch: gh-pages
-          # Use the automatic GITHUB_TOKEN; adjust if you want a deploy key instead
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build
+        uses: actions/jekyll-build-pages@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
