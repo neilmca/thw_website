@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Handywoman — Local DIY & Home Repairs
+title: The Handywoman — local DIY & Home Repairs
 description: Reliable DIY, home repairs and small renovations by Helen — friendly, local, and professional.
 ---
 
