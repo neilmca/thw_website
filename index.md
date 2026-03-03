@@ -37,7 +37,7 @@ Helen helps homeowners with small jobs that make a big difference around the hou
 
 ## Request a quote
 
-**Phone:** [0111 111111](tel:01111111111)  
+**Phone:** [07870 865472](tel:07870 865472)  
 **Email:** [helen@thehandywoman.co.uk](mailto:helen@thehandywoman.co.uk)
 
 [Request a free quote by email](mailto:helen@thehandywoman.co.uk)
