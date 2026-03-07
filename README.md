@@ -16,7 +16,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-3. Open http://127.0.0.1:4000 in your browser.
+3. Open http://127.0.0.1:4000 in your browser
 
 Files added:
 - `Gemfile` — pins Jekyll dependency
