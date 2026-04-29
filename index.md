@@ -37,11 +37,10 @@ Helen helps homeowners with small jobs that make a big difference around the hou
 
 ## Request a quote
 
-**Phone:** [07870 865472](tel:07870 865472)  
 **Email:** [helen@thehandywoman.co.uk](mailto:helen@thehandywoman.co.uk)
 
 [Request a free quote by email](mailto:helen@thehandywoman.co.uk)
 
 ---
 
-*Serving the local area. For larger projects we can refer trusted partners.*
+*Serving Cheam, Carshalton Beeches, Banstead and surrounding areas.*
